@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #140442;
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.first {
+  height: 60vh;
+}
+
+.primary-title {
+  color: #f8f9fa;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1.6rem 0 2.4rem;
+}
+
+.secondary-title {
+  color: #f8f9fa;
+  font-weight: 400;
+}
+
+.secondary-title {
+  color: #f8f9fa;
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  background-color: #ff6b6b;
+  color: #f8f9fa;
+  font-size: 1.2rem;
+  min-width: 160px;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.comp-choice {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.computer-choice,
+.display-winner {
+  background: none;
+  border: 3px solid #f8f9fa;
+  font-family: inherit;
+  color: #f8f9fa;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.computer-choice {
+  padding: 1.6rem;
+  width: 12rem;
+}
+
+.display-winner {
+  padding: 1.6rem;
+  width: 16rem;
+}
+
+.second {
+  height: 40vh;
+}
+
+.winner-scores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.score {
+  color: #f8f9fa;
+  font-size: 1.6rem;
+}
+
+.result {
+  color: #ff6b6b;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  text-align: center;
+}
